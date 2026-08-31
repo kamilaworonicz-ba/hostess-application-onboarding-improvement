@@ -7,40 +7,31 @@ This document reconstructs the requirements for the onboarding solution introduc
 
 ---
 
-## 1. Traceability: Pain Points → Requirements
-
-| Pain point | Addressed by | Coverage |
-|---|---|---|
-| Frequent first-week support requests | FR-01, FR-02, FR-03 | Full |
-| Team Leader-dependent onboarding | FR-01, FR-02 | Full |
-| First hands-on use during real work | FR-03 | Full |
-| Training in the production environment | FR-03, BR-01 | Full |
-
----
-
-## 2. Functional Requirements
+## 1. Functional Requirements
 
 | ID | Requirement | Priority |
 |---|---|---|
-| **FR-01** | The onboarding process shall provide a user guide covering the core application workflow required by a new hostess. | High |
-| **FR-02** | The onboarding materials shall provide an FAQ addressing recurring application usage questions that can be resolved without helpdesk support. | High |
-| **FR-03** | A new hostess shall have access to a separate training version of the application that allows her to practice the core workflow before her first independent field shift. | High |
+| **FR-01** | The onboarding solution shall provide a user guide covering the core application workflow required by a new hostess. | High |
+| **FR-02** | The onboarding solution shall provide an FAQ covering recurring application usage questions that can be resolved without helpdesk support. | High |
+| **FR-03** | The onboarding solution shall provide a separate training version of the application in which a new hostess can practice the core workflow before her first independent field shift. | High |
 
 ---
 
-## 3. Business Rules
+## 2. Business Rules
 
 ### BR-01 — Training Data Separation
 
-Activities performed in the training environment must not create or modify production survey data.
+Actions performed in the training version of the application must not create or modify production survey data.
 
-### BR-02 — Training Environment Usage
+### BR-02 — Production Application Usage
 
-The training environment is intended for onboarding and practice only. Real customer survey data must be collected using the production application.
+The training version may be used only for onboarding and practice.
+
+Real customer surveys must be collected using the production application.
 
 ---
 
-## 4. Example User Stories & Acceptance Criteria
+## 3. Example User Stories & Acceptance Criteria
 
 ### User Story — US-01: Pre-Shift Application Practice
 
@@ -94,7 +85,7 @@ Feature: Standardized Onboarding
 ```
 Traceability: FR-01 → FR-02 → FR-03 → US-03
 
-## 5. Requirements Traceability Summary
+## 4. Requirements Traceability Summary
 
 | Pain point                             | Requirement         | User Story / Rule   |
 | -------------------------------------- | ------------------- | ------------------- |
@@ -103,4 +94,4 @@ Traceability: FR-01 → FR-02 → FR-03 → US-03
 | First hands-on use during real work    | FR-03               | US-01               |
 | Training in the production environment | FR-03               | BR-01, BR-02, US-01 |
 
-These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md) and are reflected in the AS-IS and TO-BE process models in [`03_problem_and_scenario.md`](./03_problem_and_scenario.md).
+These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md) and are reflected in the AS-IS and TO-BE process models in [`03_process_diagrams.md.md`](./03_process_diagrams.md).
