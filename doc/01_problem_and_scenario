@@ -22,16 +22,3 @@ The scenario below illustrates a typical onboarding path before the process impr
 
 > [!NOTE]
 > The sequence below illustrates a typical onboarding path. The exact number and type of support requests varied between users.
-
-```mermaid
-flowchart LR
-    A["New hostess joins the team"] --> B["Team Leader explains the application"]
-    B --> C["First independent use during field work"]
-    C --> D{"User encounters a problem?"}
-    D -- Yes --> E["Contact application support"]
-    E --> F["Issue explained or resolved"]
-    F --> C
-    D -- No --> G["Continues field work"]
-
-    style E fill:#c0392b,stroke:#333,stroke-width:2px,color:#fff
-    style G fill:#2e7d32,stroke:#333,stroke-width:2px,color:#fff
