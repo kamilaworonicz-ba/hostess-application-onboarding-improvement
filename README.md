@@ -12,7 +12,7 @@ The case study focuses on one recurring operational problem: onboarding new host
 
 ---
 
-## 🗺️ Where This Fits in the Wider Process
+## 1. Where This Fits in the Wider Process
 
 This case study focuses only on application onboarding before a new hostess begins independent field work. Recruitment, campaign planning, ongoing workforce management and the broader customer-survey process are outside the scope of the analysis.
 
@@ -20,7 +20,7 @@ This case study focuses only on application onboarding before a new hostess begi
 
 ---
 
-## 👥 Actors
+## 2. Actors
 
 | Actor                                     | Involved in this workflow?             | Role                                                                                               |
 | ----------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -31,7 +31,7 @@ This case study focuses only on application onboarding before a new hostess begi
 
 ---
 
-## 🧩 Illustrative Scenario
+## 3. Illustrative Scenario
 
 A new hostess needs to learn how to use the tablet application before her first independent field shift.
 
@@ -45,7 +45,7 @@ A detailed AS-IS scenario and identified pain points are described in [`01_probl
 
 ---
 
-## 🎯 Problem & Goal
+## 4. Problem & Goal
 
 There was no standardized onboarding process for new hostesses. As a result, new users often learned the application during their first shift, generated frequent support requests and, in some cases, practiced in the production environment.
 
@@ -59,7 +59,7 @@ The solution included:
 
 ---
 
-## 📊 Success Measures & Illustrative NFRs
+## 5. Success Measures & Illustrative NFRs
 
 ### Success Measures
 
@@ -78,7 +78,7 @@ The solution included:
 
 ---
 
-## 📐 Scope
+## 6. Scope
 
 **In scope:** onboarding process design (user guide, FAQ, training environment) for new hostesses, up to their first independent field shift.
 
@@ -86,7 +86,7 @@ The solution included:
 
 ---
 
-## 📋 Requirements
+## 7. Requirements
 
 The onboarding improvement is documented through functional requirements, business rules, user stories and acceptance criteria.
 
@@ -94,7 +94,7 @@ Full specification and traceability: ➡️ [`02_requirements.md`](docs/02_requi
 
 ---
 
-## 📚 Case Study Contents
+## 8. Case Study Contents
 
 | Document                                                        | Purpose                                                                                     |
 | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
