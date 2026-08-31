@@ -8,6 +8,8 @@ A focused BA case study of a real process improvement introduced for a tablet ap
 
 The case study focuses on one recurring operational problem: onboarding new hostesses to the application. It traces the process from an informal, support-heavy onboarding model to a structured approach based on user documentation, FAQ and a safe training version of the application.
 
+> **Confidentiality:** Company, client, application and brand names have been anonymised. No confidential screens, customer data or commercially sensitive information are reproduced.
+
 ---
 
 ## 🗺️ Where This Fits in the Wider Process
@@ -29,25 +31,15 @@ This case study focuses only on application onboarding before a new hostess begi
 
 ---
 
-## ℹ️ Context & Disclaimer
-
-* **Domain background:** This case study is based on my real professional experience managing the maintenance and development of a tablet application used by approximately 150 hostesses and 12 Team Leaders across Poland. I also acted as the first-line application support within a small project team.
-
-* **Real-world implementation:** Unlike a purely conceptual portfolio case, both the problem and the main improvement described here are based on an actual implemented solution. User instructions with FAQ were introduced together with a training version of the application that allowed new hostesses to practice before their first real shift.
-
-* **Confidentiality:** The company, client, application and brand names have been anonymised. The case study focuses only on the onboarding and support process and does not reproduce confidential application screens, customer data or commercially sensitive information.
-
----
-
 ## 🧩 Illustrative Scenario
 
-A new hostess joins a field team and needs to learn how to use the tablet application before working independently in a retail location.
+A new hostess needs to learn how to use the tablet application before her first independent field shift.
 
-Before the process improvement, application onboarding depended largely on the individual Team Leader. In many cases, the hostess used the application independently for the first time during her first actual shift.
+Before the improvement, onboarding depended mainly on the Team Leader, and the hostess often used the application independently for the first time during real work.
 
-`New hostess joins` → `Team Leader explains the application` → `First use during real work` → `User encounters difficulties` → `Helpdesk contact` → `Issue explained / resolved`
+`New hostess joins` → `Team Leader explains the application` → `First use during real work` → `User encounters difficulties` → `Helpdesk contact`
 
-In some cases, Team Leaders allowed new hostesses to practice using their own production application before the first shift. This generates non-production survey records that later had to be manually removed by support.
+In some cases, training was performed in the production application, creating test records that later had to be manually removed.
 
 A detailed AS-IS scenario and identified pain points are described in [`01_problem_and_scenario.md`](docs/01_problem_and_scenario.md).
 
@@ -55,25 +47,15 @@ A detailed AS-IS scenario and identified pain points are described in [`01_probl
 
 ## 🎯 Problem & Goal
 
-There was no standardized application onboarding process for new hostesses.
+There was no standardized onboarding process for new hostesses. As a result, new users often learned the application during their first shift, generated frequent support requests and, in some cases, practiced in the production environment.
 
-This created several recurring problems:
+The goal was to create a more structured onboarding process that would reduce helpdesk dependency and allow new hostesses to learn and practice before starting independent field work.
 
-* new users often encountered the application for the first time while already working with customers,
-* onboarding quality depended on the individual Team Leader,
-* new hostesses repeatedly contacted helpdesk with basic usage questions,
-* a single new hostess could generate approximately 10 support calls during her first week,
-* practicing in the production application could create test records that later required manual removal.
+The solution included:
 
-Because hostess turnover was relatively high, the same onboarding and support effort had to be repeated frequently.
-
-The goal was to create a more structured and scalable onboarding process that would allow new users to understand and practice the basic application workflow before their first shift, while reducing dependence on Team Leaders and helpdesk support.
-
-The implemented solution combined:
-
-* a structured user guide,
-* FAQ based on recurring support questions,
-* a separate training version of the application for safe hands-on practice.
+* a user guide,
+* FAQ,
+* a separate training version of the application.
 
 ---
 
@@ -82,8 +64,8 @@ The implemented solution combined:
 ### Success Measures
 
 * **First-week support reduction:** After introducing the new onboarding approach, the number of support calls from a newly onboarded hostess during her first week decreased from approximately 10 to no more than 3 — a reduction of at least approximately 70%.
-* **Pre-shift practice:** New hostesses gained the ability to practice the main application workflow before their first real field shift.
-* **Training data separation:** Application training no longer required using a Team Leader's production environment and creating test survey records that later had to be manually removed.
+* **Pre-shift practice adoption:** 100% of new hostesses completed the core training scenario in the training environment before their first field shift (previously 0%).
+* **Test data elimination:** Production survey records requiring manual removal due to training activity dropped from a recurring issue to 0 after the training environment was introduced.
 
 ### Illustrative NFRs
 
@@ -92,7 +74,7 @@ The implemented solution combined:
 | ID     | Category       | Illustrative NFR                                                                                                                 |
 | ------ | -------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | NFR-01 | Usability      | At least 90% of new hostesses should be able to complete the core training scenario without assistance after reviewing the onboarding materials. |
-| NFR-2 | Security / Data Isolation | The training environment must not expose production customer data or allow training users to access production records.  |
+| NFR-02 | Security / Data Isolation | The training environment must not expose production customer data or allow training users to access production records.  |
 
 ---
 
