@@ -51,11 +51,7 @@ There was no standardized onboarding process for new hostesses. As a result, new
 
 The goal was to create a more structured onboarding process that would reduce helpdesk dependency and allow new hostesses to learn and practice before starting independent field work.
 
-The solution included:
-
-* a user guide,
-* FAQ,
-* a separate training version of the application.
+The solution included a separate training version of the application.
 
 ---
 
