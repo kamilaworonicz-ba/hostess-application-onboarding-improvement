@@ -10,9 +10,9 @@ New hostesses needed to learn how to use the tablet application before working i
 This created several recurring pain points:
 
 - 📞 **Frequent first-week support requests.** A newly onboarded hostess could contact application support approximately **10 times during her first week**, often with basic usage questions.
-- 👤 **Onboarding depended on the individual Team Leader.** The amount and quality of training varied depending on the Team Leader's availability and approach.
+- 👤 **Team Leader-dependent onboarding.** The amount and quality of training varied depending on the Team Leader's availability and approach.
 - 🏪 **Learning happened during real work.** New hostesses often encountered unfamiliar application functions while already working with customers.
-- 🧪 **Training sometimes took place in the production application.** Team Leaders occasionally allowed new hostesses to practice using their own application, which could create test survey records that later had to be manually removed by support.
+- 🧪 **Training in the production environment.** Team Leaders occasionally allowed new hostesses to practice using their own application, which could create test survey records that later had to be manually removed by support.
 - ❓ **No visibility of training completion.** There was no way to confirm whether a new hostess had actually completed the training scenario before starting independent field work.
 
 These pain points provide the basis for the functional requirements defined in [`02_requirements.md`](./02_requirements.md)
