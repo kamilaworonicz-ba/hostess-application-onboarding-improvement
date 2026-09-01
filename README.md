@@ -80,9 +80,10 @@ The solution included:
 
 ## 6. Scope
 
-**In scope:** onboarding process design (user guide, FAQ, training environment) for new hostesses, up to their first independent field shift.
+**In scope:** onboarding process design (training environment) for new hostesses, up to their first independent field shift.
 
 **Out of scope:** production application redesign and any process steps outside this workflow, including recruitment, scheduling and campaign planning.
+FAQ content is treated as an existing input; this case study covers its integration into in-app guidance screens, not FAQ authoring.
 
 ---
 
