@@ -7,13 +7,13 @@ This document reconstructs the requirements for the onboarding solution introduc
 
 ---
 
-## 1. Functional Requirements
+## 1. Solution Requirements
 
 | ID | Requirement | 
 |---|---|
-| **FR-01** | The onboarding solution shall provide a user guide covering the core application workflow required by a new hostess. |
-| **FR-02** | The onboarding solution shall provide an FAQ covering recurring application usage questions that can be resolved without helpdesk support. |
-| **FR-03** | The onboarding solution shall provide a separate training version of the application in which a new hostess can practice the core workflow before her first independent field shift. | 
+| **SR-01** | The onboarding solution shall provide a user guide covering the core application workflow required by a new hostess. |
+| **SR-02** | The onboarding solution shall include an FAQ addressing recurring application usage questions. |
+| **SR-03** | The onboarding solution shall provide a separate training version of the application in which a new hostess can practice the core workflow before her first independent field shift. | 
 
 ---
 
