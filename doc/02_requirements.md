@@ -14,11 +14,13 @@ This document reconstructs the requirements for the onboarding solution introduc
 | **FR-01** | **Environment Fidelity** | The training application shall replicate all user-facing screens and functionality of the production application, including the login process. |
 | **FR-02** | **In-App Guidance** | The training application shall provide guidance screens covering common application usage questions identified in the FAQ. |
 | **FR-03** | **Training Data Separation** | The training application shall store training activity separately from production survey data. |
+| **FR-04** | **Training Completion Tracking** | The training application shall record the completion status of the core training scenario in the training database.|
+
 ---
 
 ## 2. Business Rule
 
-### BR-01 — Production Application Usage
+### BR-01 — Training and Production Application Usage
 
 The training version may be used only for onboarding and practice.
 Real customer surveys must be collected using the production application.
@@ -36,56 +38,55 @@ Real customer surveys must be collected using the production application.
 ```gherkin
 Feature: Pre-Shift Application Training
 
-  Scenario: Practicing the application before the first shift
-    Given a new hostess has not yet started independent field work
-    When she opens the training application
-    Then she can practice the core application workflow
-    And her actions do not create or modify production survey data
+Scenario: Practicing the application before the first shift
+  Given a new hostess has not yet started independent field work
+  When she opens the training application
+  Then she can log in and access the same user-facing screens and functionality as in the production application
+  And her actions do not create or modify production survey data
 ```
-Traceability: BR-01 → FR-03 → US-01
+Traceability: FR-01, FR-03, BR-01
 
-### User Story — US-02: Self-Service Support
+### User Story — US-02: In-App Guidance
 
 > As a new hostess,
-> I want to find answers to common application questions,
-> so that I can resolve basic issues without contacting helpdesk.
+> I want to access guidance within the training application,
+> so that I can learn how to handle common application usage situations while practicing.
 
 ```gherkin
-Feature: Self-Service Support
+Feature: In-App Guidance
 
-  Scenario: Finding an answer to a common question
-    Given the hostess has access to the onboarding materials
-    When she encounters a common application usage problem
-    Then she can consult the FAQ
-    And find the relevant guidance without contacting helpdesk
+  Scenario: Accessing guidance during training
+    Given a new hostess is using the training application
+    When she opens the guidance section
+    Then she can view guidance covering common application usage questions identified in the FAQ
 ```
-Traceability: FR-02 → US-02
 
-### User Story — US-03: Standardized Onboarding
+Traceability: FR-02
 
-> As a Team Leader,
-> I want new hostesses to receive standardized onboarding materials,
-> so that their preparation does not depend only on my individual explanation.
+### User Story — US-03: Training Completion Record
+
+> As application support,
+> I want the system to record whether a hostess has completed the training scenario,
+> so that completion status can be verified when needed.
 
 ```gherkin
-Feature: Standardized Onboarding
+Feature: Training Completion Tracking
 
-  Scenario: Preparing a new hostess for application use
-    Given a new hostess joins the team
-    When the onboarding process begins
-    Then she receives the user guide
-    And she has access to the FAQ
-    And she can use the training application before independent field work
+Scenario: Recording training completion
+  Given a hostess completes the core training scenario
+  When the scenario is finished
+  Then the system records the training as completed in the training database
 ```
-Traceability: FR-01 → FR-02 → FR-03 → US-03
+Traceability: FR-04
 
 ## 4. Requirements Traceability Summary
 
-| Pain point                             | Requirement         | User Story / Rule   |
+| Pain point                             | Requirement         | User Story |
 | -------------------------------------- | ------------------- | ------------------- |
-| Frequent first-week support requests   | FR-01, FR-02, FR-03 | US-01, US-02, US-03 |
-| Team Leader-dependent onboarding       | FR-01, FR-02        | US-03               |
-| First hands-on use during real work    | FR-03               | US-01               |
-| Training in the production environment | FR-03               | BR-01, BR-02, US-01 |
+| Frequent first-week support requests   | FR-01, FR-02        | US-01, US-02 |
+| Team Leader-dependent onboarding       | FR-01, FR-02        | US-01, US-02            |
+| First hands-on use during real work    | FR-01               | US-01               |
+| Training in the production environment | FR-03               | US-01|
+| No visibility of training completion   | FR-04               | US-03|
 
-These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md) and are reflected in the AS-IS and TO-BE process models in [`03_process_diagrams.md.md`](./03_process_diagrams.md).
+These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md) and are reflected in the AS-IS and TO-BE process models in [`03_process_diagrams.md`](./03_process_diagrams.md).
