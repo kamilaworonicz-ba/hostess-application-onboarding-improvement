@@ -74,7 +74,7 @@ The solution included:
 | ID     | Category       | Illustrative NFR                                                                                                                 |
 | ------ | -------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | NFR-01 | Usability      | At least 90% of new hostesses should be able to complete the core training scenario without assistance after reviewing the onboarding materials. |
-| NFR-02 | Security / Data Isolation | The training environment must not expose production customer data or allow training users to access production records.  |
+| NFR-02 | Response times | Response times in the training application shall not be faster than in the production application, to avoid setting unrealistic performance expectations.  |
 
 ---
 
