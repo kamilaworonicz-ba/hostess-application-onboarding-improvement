@@ -83,10 +83,10 @@ Traceability: FR-04
 
 | Pain point                             | Requirement         | User Story |
 | -------------------------------------- | ------------------- | ------------------- |
-| Frequent first-week support requests   | FR-01, FR-02        | US-01, US-02 |
-| Team Leader-dependent onboarding       | FR-01, FR-02        | US-01, US-02            |
-| First hands-on use during real work    | FR-01               | US-01               |
-| Training in the production environment | FR-03               | US-01|
-| No visibility of training completion   | FR-04               | US-03|
+| 📞 Frequent first-week support requests   | FR-01, FR-02        | US-01, US-02 |
+| 👤 Team Leader-dependent onboarding       | FR-01, FR-02        | US-01, US-02            |
+| 🏪 Learning happened during real work | FR-01               | US-01               |
+| 🧪 Training in the production environment | FR-03               | US-01|
+| ❓ No visibility of training completion   | FR-04               | US-03|
 
 These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md) and are reflected in the AS-IS and TO-BE process models in [`03_process_diagrams.md`](./03_process_diagrams.md).
