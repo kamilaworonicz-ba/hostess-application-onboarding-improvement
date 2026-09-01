@@ -7,26 +7,19 @@ This document reconstructs the requirements for the onboarding solution introduc
 
 ---
 
-## 1. Solution Requirements
+## 1. Functional Requirements
 
 | ID | Requirement | 
 |---|---|
-| **SR-01** | The onboarding solution shall provide a user guide covering the core application workflow required by a new hostess. |
-| **SR-02** | The onboarding solution shall include an FAQ addressing recurring application usage questions. |
-| **SR-03** | The onboarding solution shall provide a separate training version of the application in which a new hostess can practice the core workflow before her first independent field shift. | 
-
+| **FR-01** | The training application shall replicate all user-facing screens and functionality of the production application, including the login process. |
+| **FR-02** | The training application shall provide guidance screens covering common application usage questions identified in the FAQ. |
 ---
 
-## 2. Business Rules
+## 2. Business Rule
 
-### BR-01 — Training Data Separation
-
-Actions performed in the training version of the application must not create or modify production survey data.
-
-### BR-02 — Production Application Usage
+### BR-01 — Production Application Usage
 
 The training version may be used only for onboarding and practice.
-
 Real customer surveys must be collected using the production application.
 
 ---
