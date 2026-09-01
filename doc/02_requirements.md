@@ -9,7 +9,7 @@ This document reconstructs the requirements for the onboarding solution introduc
 
 ## 1. Functional Requirements
 
-| ID | Requirement | 
+| ID | Category | Requirement | 
 |---|---|---|
 | **FR-01** | **Environment Fidelity** | The training application shall replicate all user-facing screens and functionality of the production application, including the login process. |
 | **FR-02** | **In-App Guidance** | The training application shall provide guidance screens covering common application usage questions identified in the FAQ. |
