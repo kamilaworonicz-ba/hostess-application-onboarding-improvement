@@ -11,9 +11,9 @@ This document reconstructs the requirements for the onboarding solution introduc
 
 | ID | Requirement | 
 |---|---|
-| **FR-01** | The training application shall replicate all user-facing screens and functionality of the production application, including the login process. |
-| **FR-02** | The training application shall provide guidance screens covering common application usage questions identified in the FAQ. |
-| **FR-03** | **Training Data Separation:** The training application shall store training activity separately from production survey data. |
+| **FR-01** | **Environment Fidelity** | The training application shall replicate all user-facing screens and functionality of the production application, including the login process. |
+| **FR-02** | **In-App Guidance** | The training application shall provide guidance screens covering common application usage questions identified in the FAQ. |
+| **FR-03** | **Training Data Separation** | The training application shall store training activity separately from production survey data. |
 ---
 
 ## 2. Business Rule
