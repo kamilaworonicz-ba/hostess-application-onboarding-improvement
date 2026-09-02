@@ -2,7 +2,7 @@
 
 ### Business Analysis Mini Case Study
 
-`Status: In Progress` `Type: Real-World Case Study` `Domain: Retail / Field Operations` `Methods: BPMN 2.0 / User Stories / Gherkin`
+`Status: In Progress` `Type: Real-World Case Study` `Domain: Retail / Field Operations` `Methods: User Stories / Gherkin`
 
 A focused BA case study of a real process improvement introduced for a tablet application used by approximately 150 field hostesses and 12 Team Leaders across Poland.
 
@@ -97,13 +97,13 @@ Full specification and traceability: ➡️ [`02_requirements.md`](docs/02_requi
 | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | [`01_problem_and_scenario.md`](docs/01_problem_and_scenario.md) | AS-IS problem, scenario, recurring support issues and pain points                           |
 | [`02_requirements.md`](docs/02_requirements.md)                 | Functional requirements, business rules, user stories, acceptance criteria and traceability |
-| [`03_process_diagrams.md`](docs/03_process_diagrams.md)         | AS-IS and TO-BE BPMN process models                                                         |
+| [`03_process_diagrams.md`](docs/03_process_diagrams.md)         | AS-IS and TO-BE                                                        |
 
 ---
 
 ## 💡 Skills Demonstrated
 
-`AS-IS / TO-BE process analysis & BPMN modelling` 
+`AS-IS / TO-BE process analysis` 
 `Requirements analysis, business rules & traceability`
 `User Stories & Acceptance Criteria (Gherkin)`
 `Stakeholder & user needs analysis`
