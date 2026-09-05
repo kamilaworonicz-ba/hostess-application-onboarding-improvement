@@ -6,7 +6,7 @@ New hostesses needed to learn how to use the tablet application before working i
 
 | Actor                                     |  Role                                                                                               |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **New Hostess**                           |  Learns to use the application before working ndependently    |
+| **New Hostess**                           |  Learns to use the application before working independently    |
 | **Team Leader**                           |  Introduces new hostesses to the application and supervises their work                           |
 | **Application Support / Project Manager** | Provides support, identifies recurring onboarding issues and coordinates improvements |
 
