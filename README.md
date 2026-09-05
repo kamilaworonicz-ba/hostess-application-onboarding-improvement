@@ -37,7 +37,6 @@ A detailed AS-IS scenario and identified pain points are described in [`01_probl
 | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | [`01_problem_and_scenario.md`](docs/01_problem_and_scenario.md) | AS-IS problem, scenario, recurring support issues and pain points                           |
 | [`02_requirements.md`](docs/02_requirements.md)                 | Functional requirements, business rules, user stories, acceptance criteria and traceability |
-| [`03_process_diagrams.md`](docs/03_process_diagrams.md)         | AS-IS and TO-BE                                                        |
 
 > **Confidentiality:** Company, client, application and brand names have been anonymised. No onfidential screens, customer data or commercially sensitive information are reproduced.
 
