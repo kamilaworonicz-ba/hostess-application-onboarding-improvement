@@ -91,7 +91,7 @@ Traceability: FR-04, BR-02
 | 👤 Team Leader-dependent onboarding       | FR-01, FR-02      |  | US-01, US-02            |
 | 🏪 Learning happened during real work | FR-01             |BR-02  | US-01               |
 | 🧪 Training in the production environment | FR-03         |BR-01      | US-01|
-| ❓ No visibility of training completion   | FR-04          |     | US-03|
+| ❓ No reliable visibility of individual training completion  | FR-04          |     | US-03|
 
 ---
 ### 2.5. Illustrative NFRs
