@@ -94,7 +94,7 @@ Traceability: FR-04, BR-02
 These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md).
 
 ---
-### 2.5. Illustrative NFRs
+## 2.5. Illustrative NFRs
 
 > The NFRs below are hypothetical examples created for this portfolio case study. They were not formally specified during the original project and are included to demonstrate how non-functional requirements could be defined for the onboarding solution.
 
