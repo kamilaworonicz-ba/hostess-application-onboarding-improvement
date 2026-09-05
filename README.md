@@ -2,7 +2,7 @@
 
 ### Business Analysis Mini Case Study
 
-`Status: In Progress` `Type: Real-World Case Study` `Domain: Retail / Field Operations` `Methods: User Stories / Gherkin`
+`Status: In Progress` `Type: Real-World Case Study` `Domain: Retail / Field Operations` `Methods: Requirements Analysis / User Stories / Gherkin / Traceability`
 
 A focused BA case study of a real process improvement introduced for a tablet application used by approximately 150 field hostesses and 12 Team Leaders across Poland.
 
@@ -27,7 +27,7 @@ This case study focuses only on application onboarding before a new hostess begi
 | **New Hostess**                           | ✅                                      | Learns how to use the application and prepares to use it independently during field work           |
 | **Team Leader**                           | ✅                                      | Introduces new hostesses to the application and supervises their work                              |
 | **Application Support / Project Manager** | ✅                                      | Provides user support, identifies recurring onboarding issues and coordinates process improvements |
-| **Customer / Survey Participant**         | ❌ (downstream / outside this workflow) | Completes a survey during a hostess's field shift after purchasing selected products               |
+| **Customer / Survey Participant**         | ❌ outside this workflow | Completes a survey during a hostess's field shift after purchasing selected products               |
 
 ---
 
