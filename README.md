@@ -55,11 +55,11 @@ The solution included a separate training version of the application.
 
 ---
 
-## 5. Success Measures & Illustrative NFRs
+## 5. Observed Outcomes & Illustrative NFRs
 
-### Success Measures
+### Observed Outcomes
 
-* **First-week support reduction:** After introducing the new onboarding approach, the number of support calls from a newly onboarded hostess during her first week decreased from approximately 10 to no more than 3 — a reduction of at least approximately 70%.
+* **First-week support reduction:** After introducing the new onboarding approach, the number of support calls from a newly onboarded hostess during her first week decreased from approximately 10 to no more than 3 — a reduction of at least 70%..
 * **Pre-shift practice adoption:** 100% of new hostesses completed the core training scenario in the training environment before their first field shift (previously 0%).
 * **Test data elimination:** Production survey records requiring manual removal due to training activity dropped from a recurring issue to 0 after the training environment was introduced.
 
@@ -69,8 +69,8 @@ The solution included a separate training version of the application.
 
 | ID     | Category       | Illustrative NFR                                                                                                                 |
 | ------ | -------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| NFR-01 | Usability      | At least 90% of new hostesses should be able to complete the core training scenario without assistance after reviewing the onboarding materials. |
-| NFR-02 | Response times | Response times in the training application shall not be faster than in the production application, to avoid setting unrealistic performance expectations.  |
+| NFR-01 | Usability      | At least 90% of new hostesses shall be able to complete the core training scenario without assistance after reviewing the onboarding materials. |
+| NFR-02 | Response times | Response times in the training application shall be representative of production application, to avoid setting unrealistic performance expectations. |
 
 ---
 
