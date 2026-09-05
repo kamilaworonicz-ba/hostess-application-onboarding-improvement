@@ -25,6 +25,8 @@ This document reconstructs the requirements for the onboarding solution introduc
 The training version may be used only for onboarding and practice.
 Real customer surveys must be collected using the production application.
 
+### BR-02* - NEW BUSSINES RULE? A new hostess must complete the core training scenario before her first independent field shift.
+
 ---
 
 ## 2.3. Example User Stories & Acceptance Criteria
@@ -48,8 +50,8 @@ Traceability: FR-01, FR-03, BR-01
 
 ### User Story — US-02: In-App Guidance
 
-> As a new hostess,
-> I want to access guidance within the training application,
+> As a new hostess,  
+> I want to access guidance within the training application,  
 > so that I can learn how to handle common application usage situations while practicing.
 
 ```gherkin
@@ -65,8 +67,8 @@ Traceability: FR-02
 
 ### User Story — US-03: Training Completion Record
 
-> As application support,
-> I want the system to record whether a hostess has completed the training scenario,
+> As application support,  
+> I want the system to record whether a hostess has completed the training scenario,  
 > so that completion status can be verified when needed.
 
 ```gherkin
@@ -80,6 +82,8 @@ Scenario: Recording training completion
 Traceability: FR-04
 
 ## 2.4. Requirements Traceability Summary
+
+> [Warning] Zmiana tabeli na | Pain point | Functional requirement | Business Rule | User Story |
 
 | Pain point                             | Requirement         | User Story |
 | -------------------------------------- | ------------------- | ------------------- |
