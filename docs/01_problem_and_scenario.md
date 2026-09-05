@@ -4,8 +4,12 @@
 
 New hostesses needed to learn how to use the tablet application before working independently in retail locations. However, there was no standardized application onboarding process.
 
-> [!WARNING]
-> In the process this case study is based on, onboarding depended mainly on the **Team Leader**. A new hostess was shown how the application worked, but often used it independently for the first time during her first actual field shift.
+| Actor                                     | Involved in this workflow?             | Role                                                                                               |
+| ----------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **New Hostess**                           | ✅                                      | Learns how to use the application and prepares to use it independently during field work           |
+| **Team Leader**                           | ✅                                      | Introduces new hostesses to the application and supervises their work. However, there was no standardized application onboarding process.                           |
+| **Application Support / Project Manager** | ✅                                      | Provides user support, identifies recurring onboarding issues and coordinates process improvements |
+| **Customer / Survey Participant**         | ❌ outside this workflow | Completes a survey during a hostess's field shift after purchasing selected products               |
 
 This created several recurring pain points:
 
@@ -23,7 +27,6 @@ These pain points provide the basis for the functional requirements defined in [
 
 The scenario below illustrates a typical onboarding path before the process improvement.
 
-> [!NOTE]
 > The exact number and type of support requests varied between users.
 
 ```mermaid
@@ -50,6 +53,3 @@ flowchart LR
 
 
 In some cases, Team Leaders tried to provide additional hands-on training by allowing new hostesses to practice in their own production application. This could create non-production survey records that later required manual removal by application support.
-
-> [!CAUTION]
-> The production application contained real operational data and was not designed as a training environment.
