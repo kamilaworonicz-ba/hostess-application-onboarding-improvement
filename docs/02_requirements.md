@@ -17,13 +17,13 @@ This document reconstructs the requirements for the onboarding solution introduc
 
 ---
 
-## 2.2. Business Rule
+## 2.2. Business Rules
 
 ### BR-01 — Training and Production Application Usage
 
 The production application may be used only during actual field work. Training activity must be performed in the training environment.
 
-### BR-02 - Training Completion
+### BR-02 — Training Completion
 
 New hostesses are expected to complete the core training scenario before their first independent field shift.
 
@@ -31,20 +31,17 @@ New hostesses are expected to complete the core training scenario before their f
 
 ## 2.3. Example User Stories & Acceptance Criteria
 
-### User Story — US-01: Pre-Shift Application Practice
-
-> As a new hostess,  
-> I want to practice using the application before my first field shift,  
-> so that I can become familiar with the workflow before using it with customers.
-> As A new hostess,
-> I want to practice using the application in a training environment,
-> So that I can learn or revisit the workflow without affecting production data.
+### User Story — US-01: Application Practice
+.
+> **As a** new hostess, <br>
+> **I want** to practice using the application in a training environment, <br>
+> **so that** I can learn or revisit the workflow without affecting production data.
 
 ```gherkin
-Feature: Pre-Shift Application Training
+Feature: Application Training
 
 Scenario: Practicing the application before the first shift
-  Given a hostess wants to practice the application workflow
+  Given a hostess has access to the training application
   When she uses the training application
   Then she can access the same user-facing screens and functionality as in the production application
   And her actions do not create or modify production survey data
@@ -53,9 +50,9 @@ Traceability: FR-01, FR-03, BR-01
 
 ### User Story — US-02: In-App Guidance
 
-> As a new hostess,  
-> I want to access guidance within the training application,  
-> so that I can learn how to handle common application usage situations while practicing.
+> **As a** new hostess,  
+> **I want** to access guidance within the training application,  
+> **so that** I can learn how to handle common application usage situations while practicing.
 
 ```gherkin
 Feature: In-App Guidance
@@ -70,9 +67,9 @@ Traceability: FR-02
 
 ### User Story — US-03: Training Completion Record
 
-> As application support,  
-> I want the system to record whether a hostess has completed the training scenario,  
-> so that training completion data is available for future reporting and audit purposes.
+> **As an** application support,  
+> **I want** the system to record whether a hostess has completed the training scenario,  
+> **so that** training completion data is available for future reporting and audit purposes.
 
 ```gherkin
 Feature: Training Completion Tracking
@@ -88,15 +85,13 @@ Traceability: FR-04, BR-02
 
 ## 2.4. Requirements Traceability Summary
 
-> [Warning] Zmiana tabeli na | Pain point | Functional requirement | Business Rule | User Story |
-
-| Pain point                             | Requirement         | User Story |
-| -------------------------------------- | ------------------- | ------------------- |
-| 📞 Frequent first-week support requests   | FR-01, FR-02        | US-01, US-02 |
-| 👤 Team Leader-dependent onboarding       | FR-01, FR-02        | US-01, US-02            |
-| 🏪 Learning happened during real work | FR-01               | US-01               |
-| 🧪 Training in the production environment | FR-03               | US-01|
-| ❓ No visibility of training completion   | FR-04               | US-03|
+| Pain point                             | Requirement         |Business Rule | User Story |
+| -------------------------------------- | ------------------- | --------------|----- |
+| 📞 Frequent first-week support requests   | FR-01, FR-02     |BR-02    | US-01, US-02 |
+| 👤 Team Leader-dependent onboarding       | FR-01, FR-02      |  | US-01, US-02            |
+| 🏪 Learning happened during real work | FR-01             |BR-02  | US-01               |
+| 🧪 Training in the production environment | FR-03         |BR-01      | US-01|
+| ❓ No visibility of training completion   | FR-04          |     | US-03|
 
 ---
 ### 2.5. Illustrative NFRs
@@ -106,7 +101,6 @@ Traceability: FR-04, BR-02
 | ID     | Category       | Illustrative NFR                                                                                                                 |
 | ------ | -------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | NFR-01 | Compatibility      | The training application shall run on the same device models and Android versions as the production application, to ensure the practice experience matches real field conditions. |
-| NFR-02 | Response times | Response times in the training application shall be representative of production application, to avoid setting unrealistic performance expectations. |
-| NFR-03 | Data isolation | Training-session data shall be stored in tables logically separated from production survey records within the same database, and shall be excluded from all production reports, dashboards and Team Leader views. |
+| NFR-02 | Response times | Response times in the training application shall be representative of production application, to avoid setting unrealistic performance expectations. ||
 
 These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md) and are reflected in the AS-IS and TO-BE process models in [`03_process_diagrams.md`](./03_process_diagrams.md).
