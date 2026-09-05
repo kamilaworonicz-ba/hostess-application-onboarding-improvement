@@ -2,8 +2,6 @@
 
 This document reconstructs the requirements for the onboarding solution introduced in response to the pain points identified in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md).
 
-> The requirements below were not formally documented in this format during the original project. They have been reconstructed retrospectively for this portfolio case study based on the implemented solution.
-
 ---
 
 ## 2.1. Functional Requirements
@@ -29,7 +27,7 @@ New hostesses are expected to complete the core training scenario before their f
 
 ---
 
-## 2.3. Example User Stories & Acceptance Criteria
+## 2.3. User Stories & Acceptance Criteria
 
 ### User Story — US-01: Application Practice
 .
@@ -40,7 +38,7 @@ New hostesses are expected to complete the core training scenario before their f
 ```gherkin
 Feature: Application Training
 
-Scenario: Practicing the application before the first shift
+Scenario: Practicing in the training environment
   Given a hostess has access to the training application
   When she uses the training application
   Then she can access the same user-facing screens and functionality as in the production application
@@ -67,7 +65,7 @@ Traceability: FR-02
 
 ### User Story — US-03: Training Completion Record
 
-> **As an** application support,  
+> **As** application support,  
 > **I want** the system to record whether a hostess has completed the training scenario,  
 > **so that** training completion data is available for future reporting and audit purposes.
 
