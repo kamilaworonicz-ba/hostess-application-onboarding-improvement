@@ -81,6 +81,8 @@ Scenario: Recording training completion
 ```
 Traceability: FR-04
 
+---
+
 ## 2.4. Requirements Traceability Summary
 
 > [Warning] Zmiana tabeli na | Pain point | Functional requirement | Business Rule | User Story |
@@ -92,5 +94,16 @@ Traceability: FR-04
 | 🏪 Learning happened during real work | FR-01               | US-01               |
 | 🧪 Training in the production environment | FR-03               | US-01|
 | ❓ No visibility of training completion   | FR-04               | US-03|
+
+---
+### 2.5. Illustrative NFRs
+
+> The NFRs below are hypothetical examples created for this portfolio case study. They were not formally specified during the original project and are included to demonstrate how non-functional requirements could be defined for the onboarding solution.
+
+| ID     | Category       | Illustrative NFR                                                                                                                 |
+| ------ | -------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| NFR-01 | Compatibility      | The training application shall run on the same device models and Android versions as the production application, to ensure the practice experience matches real field conditions. |
+| NFR-02 | Response times | Response times in the training application shall be representative of production application, to avoid setting unrealistic performance expectations. |
+| NFR-03 | Data isolation | Training-session data shall be stored in tables logically separated from production survey records within the same database, and shall be excluded from all production reports, dashboards and Team Leader views. |
 
 These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md) and are reflected in the AS-IS and TO-BE process models in [`03_process_diagrams.md`](./03_process_diagrams.md).
