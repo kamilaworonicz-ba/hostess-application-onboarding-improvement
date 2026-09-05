@@ -101,5 +101,9 @@ These requirements derive from the AS-IS workflow described in [`01_problem_and_
 | ID     | Category       | Illustrative NFR                                                                                                                 |
 | ------ | -------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | NFR-01 | Compatibility      | The training application shall run on the same device models and Android versions as the production application, to ensure the practice experience matches real field conditions. |
-| NFR-02 | Response times | Response times in the training application shall be representative of production application, to avoid setting unrealistic performance expectations. ||
+| NFR-02 | Response times | Response times in the training application shall be representative of production application, to avoid setting unrealistic performance expectations. |
+
+---
+
+[← README](../README.md) · [← 01 Problem & Scenario](./01_problem_and_scenario.md) · **02 Requirements & Specification**
 
