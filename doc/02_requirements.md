@@ -1,4 +1,4 @@
-# Requirements & Specification
+# 2. Requirements & Specification
 
 This document reconstructs the requirements for the onboarding solution introduced in response to the pain points identified in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md).
 
@@ -7,7 +7,7 @@ This document reconstructs the requirements for the onboarding solution introduc
 
 ---
 
-## 1. Functional Requirements
+## 2.1. Functional Requirements
 
 | ID | Category | Requirement | 
 |---|---|---|
@@ -18,7 +18,7 @@ This document reconstructs the requirements for the onboarding solution introduc
 
 ---
 
-## 2. Business Rule
+## 2.2. Business Rule
 
 ### BR-01 — Training and Production Application Usage
 
@@ -27,7 +27,7 @@ Real customer surveys must be collected using the production application.
 
 ---
 
-## 3. Example User Stories & Acceptance Criteria
+## 2.3. Example User Stories & Acceptance Criteria
 
 ### User Story — US-01: Pre-Shift Application Practice
 
@@ -79,7 +79,7 @@ Scenario: Recording training completion
 ```
 Traceability: FR-04
 
-## 4. Requirements Traceability Summary
+## 2.4. Requirements Traceability Summary
 
 | Pain point                             | Requirement         | User Story |
 | -------------------------------------- | ------------------- | ------------------- |
