@@ -41,7 +41,7 @@ Before the improvement, onboarding depended mainly on the Team Leader, and the h
 
 In some cases, training was performed in the production application, creating test records that later had to be manually removed.
 
-A detailed AS-IS scenario and identified pain points are described in [`01_problem_and_scenario.md`](doc/01_problem_and_scenario.md).
+A detailed AS-IS scenario and identified pain points are described in [`01_problem_and_scenario.md`](docs/01_problem_and_scenario.md).
 
 ---
 
