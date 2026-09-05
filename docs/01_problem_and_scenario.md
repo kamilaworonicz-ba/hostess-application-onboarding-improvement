@@ -17,7 +17,7 @@ This created several recurring pain points:
 - 👤 **Team Leader-dependent onboarding.** The amount and quality of training varied depending on the Team Leader's availability and approach.
 - 🏪 **Learning happened during real work.** New hostesses often encountered unfamiliar application functions while already working with customers.
 - 🧪 **Training in the production environment.** Team Leaders occasionally allowed new hostesses to practice using their own application, which could create test survey records that later had to be manually removed by support.
-- ❓ **No reliable visibility of individual training completion.** There was no way to confirm whether a new hostess had actually completed the training scenario before starting independent field work.
+- ❓ **No reliable visibility of individual training completion.** The Team Leader knew whether a hostess had completed the training in the Team Leader’s production application, but the system did not record which individual hostess had completed it.
 
 These pain points provide the basis for the functional requirements defined in [`02_requirements.md`](./02_requirements.md)
 
