@@ -1,6 +1,6 @@
-# Problem & Scenario: Hostess Application Onboarding
+# 1. Problem & Scenario: Hostess Application Onboarding
 
-## 1. AS-IS Problem
+## 1.1. AS-IS Problem
 
 New hostesses needed to learn how to use the tablet application before working independently in retail locations. However, there was no standardized application onboarding process.
 
@@ -19,7 +19,7 @@ These pain points provide the basis for the functional requirements defined in [
 
 ---
 
-## 2. Illustrative Scenario: New Hostess Onboarding
+## 1.2. Illustrative Scenario: New Hostess Onboarding
 
 The scenario below illustrates a typical onboarding path before the process improvement.
 
