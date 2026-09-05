@@ -22,10 +22,11 @@ This document reconstructs the requirements for the onboarding solution introduc
 
 ### BR-01 — Training and Production Application Usage
 
-The training version may be used only for onboarding and practice.
-Real customer surveys must be collected using the production application.
+The production application may be used only during actual field work. Training activity must be performed in the training environment.
 
-### BR-02* - NEW BUSSINES RULE? A new hostess must complete the core training scenario before her first independent field shift.
+### BR-02 - Training Completion
+
+New hostesses are expected to complete the core training scenario before their first independent field shift.
 
 ---
 
