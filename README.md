@@ -4,94 +4,33 @@
 
 `Status: In Progress` `Type: Real-World Case Study` `Domain: Retail / Field Operations`<br> `Methods: Requirements Analysis / User Stories / Gherkin / Traceability`
 
-A focused BA case study of a real process improvement introduced for a tablet application used by approximately 150 field hostesses and 12 Team Leaders across Poland.
+A focused BA case study of a real process improvement introduced for a tablet application used by approximately **150 field hostesses and 12 Team Leaders across Poland**.
 
-The case study focuses on one recurring operational problem: onboarding new hostesses to the application. It traces the process from an informal, support-heavy onboarding model to a structured approach based on user documentation, FAQ and a safe training version of the application.
+New hostesses had no standardized application onboarding process and often used the application independently for the first time during real field work. This resulted in frequent support requests and, in some cases, training activity being performed in the production environment.
 
-> **Confidentiality:** Company, client, application and brand names have been anonymised. No confidential screens, customer data or commercially sensitive information are reproduced.
-
----
-
-## 1. Where This Fits in the Wider Process
-
-This case study focuses only on application onboarding before a new hostess begins independent field work. Recruitment, campaign planning, ongoing workforce management and the broader customer-survey process are outside the scope of the analysis.
-
-`Hostess recruitment / assignment` → **Application onboarding (this case study)** → `Work scheduling` → `First field shift` → `Customer survey collection` → `Performance monitoring & ongoing support`
-
----
-
-## 2. Actors
-
-| Actor                                     | Involved in this workflow?             | Role                                                                                               |
-| ----------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **New Hostess**                           | ✅                                      | Learns how to use the application and prepares to use it independently during field work           |
-| **Team Leader**                           | ✅                                      | Introduces new hostesses to the application and supervises their work                              |
-| **Application Support / Project Manager** | ✅                                      | Provides user support, identifies recurring onboarding issues and coordinates process improvements |
-| **Customer / Survey Participant**         | ❌ outside this workflow | Completes a survey during a hostess's field shift after purchasing selected products               |
-
----
-
-## 3. Illustrative Scenario
-
-A new hostess needs to learn how to use the tablet application before her first independent field shift.
-
-Before the improvement, onboarding depended mainly on the Team Leader, and the hostess often used the application independently for the first time during real work.
-
-`New hostess joins` → `Team Leader explains the application` → `First use during real work` → `User encounters difficulties` → `Helpdesk contact`
-
-In some cases, training was performed in the production application, creating test records that later had to be manually removed.
+The improvement introduced a structured onboarding approach combining user guidance with a separate training version of the application, allowing new hostesses to practice the core workflow before their first independent shift.
 
 A detailed AS-IS scenario and identified pain points are described in [`01_problem_and_scenario.md`](docs/01_problem_and_scenario.md).
 
----
 
-## 4. Problem & Goal
+## 📈 Results
+- **First-week support:** approximately 10 → no more than 3 calls per newly onboarded hostess
+- **Pre-shift practice:** 100% completion of the core training scenario before the first field shift
+- **Training data in production:** recurring issue → 0 records requiring manual removal
 
-There was no standardized onboarding process for new hostesses. As a result, new users often learned the application during their first shift, generated frequent support requests and, in some cases, practiced in the production environment.
+## 🎯 Scope
 
-The goal was to create a more structured onboarding process that would reduce helpdesk dependency and allow new hostesses to learn and practice before starting independent field work.
+**In scope:**
+- Onboarding process design (training environment) for new hostesses, up to their first independent field shift
+- Recording training completion data in the database for future reporting and audit purposes
 
-The solution included a separate training version of the application.
-
----
-
-## 5. Observed Outcomes & Illustrative NFRs
-
-### Observed Outcomes
-
-* **First-week support reduction:** After introducing the new onboarding approach, the number of support calls from a newly onboarded hostess during her first week decreased from approximately 10 to no more than 3 — a reduction of at least 70%..
-* **Pre-shift practice adoption:** 100% of new hostesses completed the core training scenario in the training environment before their first field shift (previously 0%).
-* **Test data elimination:** Production survey records requiring manual removal due to training activity dropped from a recurring issue to 0 after the training environment was introduced.
-
-### Illustrative NFRs
-
-> The NFRs below are hypothetical examples created for this portfolio case study. They were not formally specified during the original project and are included to demonstrate how non-functional requirements could be defined for the onboarding solution.
-
-| ID     | Category       | Illustrative NFR                                                                                                                 |
-| ------ | -------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| NFR-01 | Usability      | At least 90% of new hostesses shall be able to complete the core training scenario without assistance after reviewing the onboarding materials. |
-| NFR-02 | Response times | Response times in the training application shall be representative of production application, to avoid setting unrealistic performance expectations. |
+**Out of scope:**
+- FAQ authoring (already exists as an input)
+- In-app Team Leader visibility of training completion status
 
 ---
 
-## 6. Scope
-
-**In scope:** onboarding process design (training environment) for new hostesses, up to their first independent field shift.
-
-**Out of scope:** production application redesign and any process steps outside this workflow, including recruitment, scheduling and campaign planning.
-FAQ content is treated as an existing input; this case study covers its integration into in-app guidance screens, not FAQ authoring.
-
----
-
-## 7. Requirements
-
-The onboarding improvement is documented through functional requirements, business rules, user stories and acceptance criteria.
-
-Full specification and traceability: ➡️ [`02_requirements.md`](docs/02_requirements.md)
-
----
-
-## 8. Case Study Contents
+## 📂 Case Study Contents
 
 | Document                                                        | Purpose                                                                                     |
 | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
@@ -99,15 +38,7 @@ Full specification and traceability: ➡️ [`02_requirements.md`](docs/02_requi
 | [`02_requirements.md`](docs/02_requirements.md)                 | Functional requirements, business rules, user stories, acceptance criteria and traceability |
 | [`03_process_diagrams.md`](docs/03_process_diagrams.md)         | AS-IS and TO-BE                                                        |
 
----
-
-## 💡 Skills Demonstrated
-
-`AS-IS / TO-BE process analysis` 
-`Requirements analysis, business rules & traceability`
-`User Stories & Acceptance Criteria (Gherkin)`
-`Stakeholder & user needs analysis`
-`Solution evaluation using operational results`
+> **Confidentiality:** Company, client, application and brand names have been anonymised. No onfidential screens, customer data or commercially sensitive information are reproduced.
 
 ---
 
