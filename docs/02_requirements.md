@@ -30,7 +30,7 @@ New hostesses are expected to complete the core training scenario before their f
 ## 2.3. User Stories & Acceptance Criteria
 
 ### User Story — US-01: Application Practice
-.
+
 > **As a** new hostess, <br>
 > **I want** to practice using the application in a training environment, <br>
 > **so that** I can learn or revisit the workflow without affecting production data.
