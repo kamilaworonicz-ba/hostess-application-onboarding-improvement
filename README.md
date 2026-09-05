@@ -2,7 +2,7 @@
 
 ### Business Analysis Mini Case Study
 
-`Status: In Progress` `Type: Real-World Case Study` `Domain: Retail / Field Operations` `Methods: Requirements Analysis / User Stories / Gherkin / Traceability`
+`Status: In Progress` `Type: Real-World Case Study` `Domain: Retail / Field Operations`<br> `Methods: Requirements Analysis / User Stories / Gherkin / Traceability`
 
 A focused BA case study of a real process improvement introduced for a tablet application used by approximately 150 field hostesses and 12 Team Leaders across Poland.
 
