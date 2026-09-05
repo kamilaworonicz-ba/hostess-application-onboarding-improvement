@@ -91,7 +91,7 @@ Traceability: FR-04, BR-02
 | 🧪 Training in the production environment | FR-03         |BR-01      | US-01|
 | ❓ No reliable visibility of individual training completion  | FR-04          |     | US-03|
 
-These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md) and are reflected in the AS-IS and TO-BE process models in [`03_process_diagrams.md`](./03_process_diagrams.md).
+These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md).
 
 ---
 ### 2.5. Illustrative NFRs
