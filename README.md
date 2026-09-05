@@ -49,3 +49,6 @@ Business Analyst | Product Manager (career transition)
 
 * Email: [kamila.woronicz@gmail.com](mailto:kamila.woronicz@gmail.com)
 * Location: Gdańsk, Poland
+
+---
+**README** · [01 Problem & Scenario →](./01_problem_and_scenario.md) · [02 Requirements & Specification →](./02_requirements.md)
