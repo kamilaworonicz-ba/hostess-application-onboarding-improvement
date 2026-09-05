@@ -2,8 +2,7 @@
 
 This document reconstructs the requirements for the onboarding solution introduced in response to the pain points identified in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md).
 
-> [!NOTE]
-> The requirements below were not formally documented in this format during the original project. They have been reconstructed retrospectively for this portfolio case study based on the implemented solution.
+> > The requirements below were not formally documented in this format during the original project. They have been reconstructed retrospectively for this portfolio case study based on the implemented solution.
 
 ---
 
@@ -37,14 +36,17 @@ New hostesses are expected to complete the core training scenario before their f
 > As a new hostess,  
 > I want to practice using the application before my first field shift,  
 > so that I can become familiar with the workflow before using it with customers.
+> As A new hostess,
+> I want to practice using the application in a training environment,
+> So that I can learn or revisit the workflow without affecting production data.
 
 ```gherkin
 Feature: Pre-Shift Application Training
 
 Scenario: Practicing the application before the first shift
-  Given a new hostess has not yet started independent field work
-  When she opens the training application
-  Then she can log in and access the same user-facing screens and functionality as in the production application
+  Given a hostess wants to practice the application workflow
+  When she uses the training application
+  Then she can access the same user-facing screens and functionality as in the production application
   And her actions do not create or modify production survey data
 ```
 Traceability: FR-01, FR-03, BR-01
@@ -70,7 +72,7 @@ Traceability: FR-02
 
 > As application support,  
 > I want the system to record whether a hostess has completed the training scenario,  
-> so that completion status can be verified when needed.
+> so that training completion data is available for future reporting and audit purposes.
 
 ```gherkin
 Feature: Training Completion Tracking
@@ -80,7 +82,7 @@ Scenario: Recording training completion
   When the scenario is finished
   Then the system records the training as completed in the training database
 ```
-Traceability: FR-04
+Traceability: FR-04, BR-02
 
 ---
 
