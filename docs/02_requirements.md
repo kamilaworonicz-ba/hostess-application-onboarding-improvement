@@ -93,6 +93,8 @@ Traceability: FR-04, BR-02
 | 🧪 Training in the production environment | FR-03         |BR-01      | US-01|
 | ❓ No reliable visibility of individual training completion  | FR-04          |     | US-03|
 
+These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md) and are reflected in the AS-IS and TO-BE process models in [`03_process_diagrams.md`](./03_process_diagrams.md).
+
 ---
 ### 2.5. Illustrative NFRs
 
@@ -103,4 +105,3 @@ Traceability: FR-04, BR-02
 | NFR-01 | Compatibility      | The training application shall run on the same device models and Android versions as the production application, to ensure the practice experience matches real field conditions. |
 | NFR-02 | Response times | Response times in the training application shall be representative of production application, to avoid setting unrealistic performance expectations. ||
 
-These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md) and are reflected in the AS-IS and TO-BE process models in [`03_process_diagrams.md`](./03_process_diagrams.md).
