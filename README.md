@@ -27,6 +27,7 @@ A detailed AS-IS scenario and identified pain points are described in [`01_probl
 **Out of scope:**
 - FAQ authoring (already exists as an input)
 - In-app Team Leader visibility of training completion status
+- Automatic blocking of production access for hostesses who have not completed the training
 
 ---
 
