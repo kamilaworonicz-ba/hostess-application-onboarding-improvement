@@ -42,3 +42,6 @@ flowchart LR
     style G fill:#2e7d32,stroke:#333,stroke-width:2px,color:#fff
 ```
 <p align="center"><em>Figure 1. AS-IS hostess onboarding and support flow.</em></p>
+
+---
+[← README](../README.md) · **01 Problem & Scenario** · [02 Requirements & Specification →](./02_requirements.md)
