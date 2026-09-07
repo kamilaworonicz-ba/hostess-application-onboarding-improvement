@@ -22,7 +22,7 @@ These pain points provide the basis for the functional requirements defined in [
 
 ---
 
-## 1.2. Illustrative Scenario: New Hostess Onboarding
+## 1.2. Illustrative Scenario
 
 The onboarding process relied primarily on an informal introduction by the Team Leader. New hostesses often encountered application-related questions only after starting independent field work and contacted Application Support for help. As a result, the same basic usage issues could recur during the first days of work.
 
