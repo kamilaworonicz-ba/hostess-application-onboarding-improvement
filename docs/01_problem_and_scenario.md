@@ -4,12 +4,6 @@
 
 New hostesses needed to learn how to use the tablet application before working independently in retail locations. However, there was no standardized application onboarding process.
 
-| Actor                                     |  Role                                                                                               |
-| ----------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **New Hostess**                           |  Learns to use the application before working independently    |
-| **Team Leader**                           |  Introduces new hostesses to the application and supervises their work                           |
-| **Application Support / Project Manager** | Provides support, identifies recurring onboarding issues and coordinates improvements |
-
 This created several recurring pain points:
 
 - 📞 **Frequent first-week support requests.** A newly onboarded hostess could contact application support approximately **10 times during her first week**, often with basic usage questions.
@@ -19,6 +13,12 @@ This created several recurring pain points:
 - ❓ **No reliable visibility of individual training completion.** The Team Leader knew whether a hostess had completed the training in the Team Leader’s production application, but the system did not record which individual hostess had completed it.
 
 These pain points provide the basis for the functional requirements defined in [`02_requirements.md`](./02_requirements.md)
+
+| Actor                                     |  Role                                                                                               |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **New Hostess**                           |  Learns to use the application before working independently    |
+| **Team Leader**                           |  Introduces new hostesses to the application and supervises their work                           |
+| **Application Support / Project Manager** | Provides support, identifies recurring onboarding issues and coordinates improvements |
 
 ---
 
