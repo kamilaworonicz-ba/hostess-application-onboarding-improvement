@@ -1,4 +1,4 @@
-# 2. Requirements & Specification
+# 2. Requirements & Specification: Hostess Application Onboarding
 
 This document reconstructs the requirements for the onboarding solution introduced in response to the pain points identified in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md).
 
