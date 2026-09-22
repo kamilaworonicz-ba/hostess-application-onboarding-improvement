@@ -29,7 +29,6 @@ A detailed AS-IS scenario and identified pain points are described in [`01_probl
 - In-app Team Leader visibility of training completion status
 - Automatic blocking of production access for hostesses who have not completed the training
 
----
 
 ## 📂 Case Study Contents
 
@@ -40,7 +39,6 @@ A detailed AS-IS scenario and identified pain points are described in [`01_probl
 
 > **Confidentiality:** Company, client, application and brand names have been anonymised. No onfidential screens, customer data or commercially sensitive information are reproduced.
 
----
 
 ## 📬 Contact
 
