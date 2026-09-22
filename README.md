@@ -42,11 +42,9 @@ A detailed AS-IS scenario and identified pain points are described in [`01_probl
 
 ## 📬 Contact
 
-Kamila Woronicz
-Business Analyst | Product Manager (career transition)
-
-* Email: [kamila.woronicz@gmail.com](mailto:kamila.woronicz@gmail.com)
-* Location: Gdańsk, Poland
+**Kamila Woronicz**<br>
+Product Project Manager | Business Analyst <br>
+<kamila.woronicz@gmail.com>
 
 ---
 **README** · [01 Problem & Scenario →](./01_problem_and_scenario.md) · [02 Requirements & Specification →](./02_requirements.md)
