@@ -20,7 +20,6 @@ These pain points provide the basis for the functional requirements defined in [
 | **Team Leader**                           |  Introduces new hostesses to the application and supervises their work                           |
 | **Application Support / Project Manager** | Provides support, identifies recurring onboarding issues and coordinates improvements |
 
----
 
 ## 1.2. Illustrative Scenario
 
