@@ -2,7 +2,6 @@
 
 This document reconstructs the requirements for the onboarding solution introduced in response to the pain points identified in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md).
 
----
 
 ## 2.1. Functional Requirements
 
@@ -13,7 +12,6 @@ This document reconstructs the requirements for the onboarding solution introduc
 | **FR-03** | **Training Data Separation** | The training application shall store training activity separately from production survey data. |
 | **FR-04** | **Training Completion Tracking** | The training application shall record the completion status of the core training scenario for each hostess in the training database.|
 
----
 
 ## 2.2. Business Rules
 
@@ -25,7 +23,6 @@ The production application may be used only during actual field work. Training a
 
 New hostesses are expected to complete the core training scenario before their first independent field shift.
 
----
 
 ## 2.3. User Stories & Acceptance Criteria
 
@@ -79,7 +76,6 @@ Scenario: Recording training completion
 ```
 Traceability: FR-04, BR-02
 
----
 
 ## 2.4. Requirements Traceability Summary
 
@@ -93,7 +89,6 @@ Traceability: FR-04, BR-02
 
 These requirements derive from the AS-IS workflow described in [`01_problem_and_scenario.md`](./01_problem_and_scenario.md).
 
----
 ## 2.5. Illustrative NFRs
 
 > The NFRs below are hypothetical examples created for this portfolio case study. They were not formally specified during the original project and are included to demonstrate how non-functional requirements could be defined for the onboarding solution.
